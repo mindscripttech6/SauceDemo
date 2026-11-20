@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  SauceDemo UI Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SauceDemo UI Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 17 21:01:55 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>285 seconds (285780 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saucedemo.tests.CartTests.removeItemFromCart()'><b>removeItemFromCart</b><br>Test class: com.saucedemo.tests.CartTests<br>Test method: Remove item from cart</td>
+<td></td>
+<td>11</td>
+<td>com.saucedemo.tests.CartTests@6283d8b8</td></tr>
+<tr>
+<td title='com.saucedemo.tests.EndToEndTests.endToEndTest()'><b>endToEndTest</b><br>Test class: com.saucedemo.tests.EndToEndTests<br>Test method: Complete end-to-end purchase flow</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.EndToEndTests@611889f4</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NavigationTests.openProductDetails()'><b>openProductDetails</b><br>Test class: com.saucedemo.tests.NavigationTests<br>Test method: Open product details</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.NavigationTests@3f6b0be5</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTests.verifyProductList()'><b>verifyProductList</b><br>Test class: com.saucedemo.tests.ProductTests<br>Test method: Verify product list</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.ProductTests@7205765b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NavigationTests.logoutFunctionality()'><b>logoutFunctionality</b><br>Test class: com.saucedemo.tests.NavigationTests<br>Test method: Logout functionality</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.NavigationTests@3f6b0be5</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTests.sortProductsZA()'><b>sortProductsZA</b><br>Test class: com.saucedemo.tests.ProductTests<br>Test method: Sort products by name Z to A</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.ProductTests@7205765b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutTests.checkoutWithValidData()'><b>checkoutWithValidData</b><br>Test class: com.saucedemo.tests.CheckoutTests<br>Test method: Checkout with valid customer information</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.CheckoutTests@3b6ddd1d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTests.loginScenarios()'><b>loginScenarios</b><br>Test class: com.saucedemo.tests.LoginTests<br>Test method: Validate valid, invalid, empty, and locked-account login scenarios<br>Parameters: standard_user, secret_sauce, SUCCESS, Products</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.LoginTests@d29f28</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTests.loginScenarios()'><b>loginScenarios</b><br>Test class: com.saucedemo.tests.LoginTests<br>Test method: Validate valid, invalid, empty, and locked-account login scenarios<br>Parameters: , , ERROR, Username is required</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTests@d29f28</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutTests.checkoutWithoutDetails()'><b>checkoutWithoutDetails</b><br>Test class: com.saucedemo.tests.CheckoutTests<br>Test method: Checkout validation when details are empty</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.CheckoutTests@3b6ddd1d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTests.loginScenarios()'><b>loginScenarios</b><br>Test class: com.saucedemo.tests.LoginTests<br>Test method: Validate valid, invalid, empty, and locked-account login scenarios<br>Parameters: standard_user, wrong_password, ERROR, Username and password do not match</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTests@d29f28</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTests.verifyCartBadgeCount()'><b>verifyCartBadgeCount</b><br>Test class: com.saucedemo.tests.CartTests<br>Test method: Verify cart badge with two products</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.CartTests@6283d8b8</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTests.addItemToCart()'><b>addItemToCart</b><br>Test class: com.saucedemo.tests.CartTests<br>Test method: Add item to cart</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.CartTests@6283d8b8</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTests.sortPriceLowToHigh()'><b>sortPriceLowToHigh</b><br>Test class: com.saucedemo.tests.ProductTests<br>Test method: Sort products by price low to high</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.ProductTests@7205765b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTests.sortPriceHighToLow()'><b>sortPriceHighToLow</b><br>Test class: com.saucedemo.tests.ProductTests<br>Test method: Sort products by price high to low</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.ProductTests@7205765b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTests.sortProductsAZ()'><b>sortProductsAZ</b><br>Test class: com.saucedemo.tests.ProductTests<br>Test method: Sort products by name A to Z</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.ProductTests@7205765b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTests.loginScenarios()'><b>loginScenarios</b><br>Test class: com.saucedemo.tests.LoginTests<br>Test method: Validate valid, invalid, empty, and locked-account login scenarios<br>Parameters: locked_out_user, secret_sauce, ERROR, locked out</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTests@d29f28</td></tr>
+</table><p>
+</body>
+</html>

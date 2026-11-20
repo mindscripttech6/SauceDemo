@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Automation Suite" thread-count="3">
+	<test name="SauceDemo UI Tests">
+		<classes>
+			<class name="com.saucedemo.tests.LoginTests" />
+			<class name="com.saucedemo.tests.ProductTests" />
+			<class name="com.saucedemo.tests.CartTests" />
+			<class name="com.saucedemo.tests.CheckoutTests" />
+			<class name="com.saucedemo.tests.NavigationTests" />
+			<class name="com.saucedemo.tests.EndToEndTests" />
+		</classes>
+	</test>
+</suite>
